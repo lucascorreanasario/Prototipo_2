@@ -1,0 +1,195 @@
+#sidebar_completa{
+    height: 100vh;
+    margin: 0px;
+    
+    padding: 20px;
+  
+}
+
+.row{
+    --bs-gutter-x: 0rem !important;
+}
+
+.card{
+    margin-right: 10px;
+}
+
+.perfil_avatar{
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px !important;
+    background-color: rgba(0, 0, 0, 0) !important;
+}
+
+#new-button{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    border: 0px transparent solid;
+}
+
+/* Botão-despesa*/
+
+#salvar_despesa{
+    width: 100%;
+    height: 60px;
+    border-radius: 10px;
+    background-image: linear-gradient(135deg, #a03f0e 0%, #ea5455 100%);
+    box-shadow: 0 5px 10px -6px rgba(180, 9, 0, 0.5);
+    color: white;
+}
+
+#open-novo-despesa {
+    transition: all 0.3s ease-in-out;
+    font-family: "Dosis", sans-serif;
+  }
+  
+  #open-novo-despesa {
+    width: 100%;
+    margin-left:2.5px ;
+    height: 60px;
+    border-radius: 10px;
+    background-image: linear-gradient(135deg, #a03f0e 0%, #ea5455 100%);
+    box-shadow: 0 20px 30px -6px rgba(180, 9, 0, 0.5);
+    color: white;
+  }
+  
+  #open-novo-despesa:hover {
+    transform: translateY(3px);
+    box-shadow: none;
+  }
+  
+  #open-novo-despesa:active {
+    opacity: 0.5;
+  }
+
+  /* Botão-receita*/
+
+  #salvar_receita{
+    width: 100%;
+    height: 60px;
+    border-radius: 10px;
+    background-image: linear-gradient(135deg, #0ea057 0%, rgb(84, 234, 129) 100%);
+    box-shadow: 0 20px 30px -6px rgba(6, 69, 25, 0.5);
+    color: white;
+  }
+
+  
+  #open-novo-receita {
+    transition: all 0.3s ease-in-out;
+    font-family: "Dosis", sans-serif;
+  }
+  
+  #open-novo-receita {
+    margin-right:2.5px ;
+    width: 100%;
+    height: 60px;
+    border-radius: 10px;
+    background-image: linear-gradient(135deg, #0ea057 0%, rgb(84, 234, 129) 100%);
+    box-shadow: 0 5px 10px -6px rgba(6, 69, 25, 0.5);
+    color: white;
+  }
+  
+  #open-novo-receita:hover {
+    transform: translateY(3px);
+    box-shadow: none;
+  }
+  
+  #open-novo-receita:active {
+    opacity: 0.5;
+  }
+
+  /*Botões Dash e Extratos ativo */
+  .nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+    border-radius: 10px;
+  }
+  .DayPickerKeyboardShortcuts_show__bottomRight::before{
+    display: none;
+  }
+  .modal-content{
+    border-radius: 10px;
+  }
+  .form-check-input{
+    border-radius: 10px;
+  }
+  .CalendarDay__selected, .CalendarDay__selected:active, .CalendarDay__selected:hover{
+    background-color: #2780e3;
+  }
+  .col-6{
+    padding-left: 2px;
+    padding-right: 2px;
+    
+  }
+  .btn .btn-success .btn .btn-primary{
+    margin-top: 0px!important; 
+  }
+
+  .form-control{
+    border-radius: 10px;
+  }
+
+  .dash-spreadsheet-menu-item button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #2780e3;
+    padding: 14px 40px;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    cursor: pointer;
+    border-radius: 10px;
+    border: 2px dashed #2780e3;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    transition: .4s;
+    width: 200px;
+    height: 50px;
+    
+  }
+
+  .dash-spreadsheet-menu-item .show-hide{
+    content: "Texto Adicionado via CSS" !important;
+  }
+
+  .form-select{
+    border-radius: 10px;
+    margin-top: 6%;
+  }
+
+  .Select-value .Select-value-label{
+    
+    background-color: rgb(252, 252, 255);
+  }
+.Select-value-icon{
+  color: rgb(0, 13, 255);
+}
+
+.Select-value .Select-value-label{
+  color: #fff;
+}
+.dbc .Select--multi .Select-value{
+  background-color: #99c6e6;
+}
+ 
+.CalendarDay__selected_span{
+  background-color: #7f92a9;
+  border: 1px solid black;
+}
+.CalendarDay:hover{
+  
+  background-color: #203247;
+}
+[type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled){
+  border-radius: 10px;
+}
+
+.DayPickerNavigation_button__horizontalDefault{
+  background-color: #2780e3 ;
+  border-radius: 5px;
+}
+.DayPickerNavigation_svg__horizontal{
+  fill: white;
+}
+.dash-debug-menu{
+  display: none!important;
+}
